@@ -1,0 +1,18 @@
+<!-- Hello Program using JS to manipulate DOM -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Program using JS to manipulate DOM</title>
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Namaste Duniya!"
+        const root = document.getElementById("root");
+        root.appendChild(heading);
+    </script>
+</body>
+</html>
