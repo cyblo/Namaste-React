@@ -7,20 +7,15 @@ Features provided by Emmet -
 1. Abbreviation Syntax : It helps developers write Abbreviated syntax ( shortened form of syntax )
 For Example -
 
-
 ul > li*3
 It is the shortened form for 
   
-
-
 
 2. Nested Structures : It also supports nested structures , meaning it also provides the shortened form for nested structures.
 For Example -
 div > ul > li*3
 It is the shortened form for 
   
-
-
 
 3. CSS : It can also be used to generate CSS code quickly.
 For Example -
@@ -39,14 +34,10 @@ In a framework the control is inverted.
 Example - Angular
 
 
-
-
 Q3]  What is CDN? Why do we use it?
 A] CDN - Content Delivery Network
 It is a collection of servers that work together to deliver content to users quickly and reliably.
  When you visit a website that uses a CDN, instead of fetching all the data from one central location (like the bookstore's main store), the CDN sends you the website content from a server closest to you.
-
-
 
 
 Q4]  Why is React known as React?
@@ -54,8 +45,6 @@ React and the Virtual DOM
 A] React is named React because it is built around the concept of reacting to the changes in data.
 This reactive behaviour eliminates the need for manual DOM Updates.
 React uses Virtual DOM to efficiently “react” to the changes by calculating the minimal updates needed and applying them to the actual DOM.
-
-
 
 
 Q5] What is crossorigin in script tag?
@@ -67,6 +56,8 @@ Nowadays Modern browsers have a security policy CORS ( Cross-Origin Resource Sha
 
 
 When you include scripts from a CDN, the browser might consider them as coming from a different origin compared to your own domain. Without the crossorigin attribute, certain security mechanisms might prevent these scripts from being loaded and executed correctly.
+
+
 Q6]  What is difference between React and ReactDOM
 A] React:
 Think of React as the brain. It helps you create and manage the pieces (components) of your app, like buttons, menus, or forms. It handles how these pieces behave and how they should look, but it doesn’t know where to put them.
@@ -77,8 +68,6 @@ ReactDOM is the hands. It takes the pieces you made with React and puts them on 
 Analogy:
 * React = Architect (designs the building).
 * ReactDOM = Builder (constructs the building in the real world).
-
-
 
 
 Q7]  What is the difference between react.development.js and react.production.js files via CDN? 
@@ -94,14 +83,8 @@ Minified and optimized for faster loading and execution.
 When deploying the app to users in a live environment.
 
 
-
-
 Q8]  What is async and defer?  
-
-
-
-
-async and defer are attributes used in <script> tags in HTML to control how and when JavaScript files are loaded and executed.
+A] async and defer are attributes used in <script> tags in HTML to control how and when JavaScript files are loaded and executed.
 
 
 Async
